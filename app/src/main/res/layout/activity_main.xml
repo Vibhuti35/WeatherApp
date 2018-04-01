@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/B1"
+        android:text="Choose Location"
+        android:layout_gravity="center"
+        />
+    <TableLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/City"
+            android:text="Current City:"
+            android:padding="2dip" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Detailcur"
+            android:text="Details"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/today"
+            android:text="Today's Weather:"
+            android:padding="3dip" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Detailtoday"
+            android:text="Details"
+            />
+    </TableRow>
+
+  
+
+    <TableRow>
+        <TextView
+            android:id="@+id/d1"
+            android:text="Day1:"
+            android:padding="3dip" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Detail1"
+            android:text="Details"
+            />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/d2"
+            android:text="Day2"
+            android:padding="3dip" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Detail2"
+            android:text="Details"
+            />
+
+    </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/d3"
+                android:text="Day3"
+                android:padding="3dip" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Detail3"
+                android:text="Details"
+                />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/d4"
+                android:text="Day4"
+                android:padding="3dip" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Detail4"
+                android:text="Details"
+                />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/d5"
+                android:text="Day5"
+                android:padding="3dip" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Detail5"
+                android:text="Details"
+                />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/d6"
+                android:text="Day6"
+                android:padding="3dip" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Detail6"
+                android:text="Details"
+                />
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:id="@+id/d7"
+                android:text="Day7"
+                android:padding="3dip" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Detail7"
+                android:text="Details"
+                />
+
+        </TableRow>
+
+</TableLayout>
+
+
+</LinearLayout>
